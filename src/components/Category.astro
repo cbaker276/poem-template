@@ -13,7 +13,7 @@ let url =
 	name === "View All"
 		? "/"
 		: sluglify(`/category/${unsluglifyNameCategory}/1`);
-if (name === "About Me Page") {
+if (name.toLowerCase() === "about me") {
 	url = "/post/about-me-page/";
 }
 ---
