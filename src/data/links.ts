@@ -15,10 +15,4 @@ export const SOCIALNETWORKS = [
 		icon: TwitterIcon
 	}
 
-	{
-		name: 'Instagram',
-		url: 'https://www.instagram.com/blnkspacepoetry/',
-		icon: InstagramIcon
-	}
-
 ] as const
