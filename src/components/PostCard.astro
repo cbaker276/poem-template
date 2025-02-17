@@ -6,7 +6,6 @@ import ArrowUp from '@/components/icons/ArrowUp'
 const {
 	id,
 	data: { title, description, pubDate, heroImage, category },
-	readTime,
 	slug
 } = Astro.props
 ---
@@ -27,7 +26,6 @@ const {
 			<div class='flex items-center justify-between gap-x-1 text-white px-6 py-4'>
 				<div class='flex flex-col gap-1 items-center justify-center'>
 					<FormattedDate date={pubDate} />
-					<span class='text-sm'> {readTime}</span>
 				</div>
 
 				<span class='pb-4'>{category}</span>

@@ -11,7 +11,7 @@ interface SiteConfig {
 
 export const siteConfig: SiteConfig = {
 	site: 'https://blankspacepoetry.com', // Write here your website url
-	author: 'Connor Baker', // Site author
+	author: 'Connor', // Site author
 	title: 'Blank Space Poetry', // Site title.
 	description: 'This site was made by me to share with the world, thanks!', // Description to display in the meta tags
 	lang: 'en-GB',
