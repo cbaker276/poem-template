@@ -11,7 +11,14 @@ export const SOCIALNETWORKS = [
 
 	{
 		name: 'Twitter',
-		url: 'https://github.com/danielcgilibert/blog-template',
+		url: 'https://x.com/BlnkSpacePoetry',
 		icon: TwitterIcon
 	}
+
+	{
+		name: 'Instagram',
+		url: 'https://www.instagram.com/blnkspacepoetry/',
+		icon: InstagramIcon
+	}
+
 ] as const
