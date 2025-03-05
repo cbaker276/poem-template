@@ -2,3 +2,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://blog-template-gray.vercel.app/sitemap-index.xml
+
+
+
+
+GDDC{I_FLY_AROUND_ALL_DAY_BUT_I_NEVER_GO_ANYWHERE.WHO_AM_I?}
