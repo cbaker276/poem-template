@@ -14,20 +14,20 @@ export const SOCIALNETWORKS = [
 	},
 
 	{
-		name: 'X',
-		url: 'https://x.com/BlnkSpacePoetry',
-		icon: XIcon
-	},
-
-	{
 		name: 'TicTok',
 		url: 'https://www.tiktok.com/@blnkspacepoetry',
 		icon: TicTokIcon
 	},
 
 	{
-		name: 'YouTube',
-		url: 'https://www.youtube.com/@blankspacepoetry',
-		icon: YouTubeIcon
+		name: 'X',
+		url: 'https://x.com/BlnkSpacePoetry',
+		icon: XIcon
 	}
+
+	//	{
+	//		name: 'YouTube',
+	//		url: 'https://www.youtube.com/@blankspacepoetry',
+	//		icon: YouTubeIcon
+	//	}
 ] as const
