@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/project.png" alt="Screenshot" />
+<img src="public/open-graph.png" alt="Screenshot" />
 
 <hr/>
 
