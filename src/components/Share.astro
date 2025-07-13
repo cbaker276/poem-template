@@ -1,7 +1,7 @@
 ---
 import { siteConfig } from '@/data/site.config'
-import TwitterColorIcon from './icons/TwitterColorIcon.astro'
-import LinkedinColorIcon from './icons/LinkedinColorIcon.astro'
+import TwitterColorIcon from './icons/XIcon.astro'
+import InstagramColorIcon from './icons/InstagramIcon.astro'
 const message = siteConfig.shareMessage
 
 const URL = Astro.url.href
@@ -17,12 +17,9 @@ const URL = Astro.url.href
 			>
 		</li>
 		<li>
-			<a
-				href={`https://www.linkedin.com/shareArticle?mini=true&url=${URL}`}
-				aria-label='Share on LinkedIn'
-			>
-				<LinkedinColorIcon /></a
-			>
+			<a href='https://www.instagram.com/blnkspacepoetry/' aria-label='Visit me on Instagram'>
+				<InstagramColorIcon />
+			</a>
 		</li>
 	</ul>
 </div>
