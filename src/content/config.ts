@@ -15,7 +15,10 @@ const blog = defineCollection({
 			heroImage: image(),
 			category: z.enum(CATEGORIES),
 			tags: z.array(z.string()),
-			draft: z.boolean().default(false)
+			draft: z.boolean().default(false),
+
+			// ✅ Add this line
+			hideRelatedPosts: z.boolean().optional()
 		})
 })
 

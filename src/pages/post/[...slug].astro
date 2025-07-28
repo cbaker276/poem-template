@@ -11,6 +11,7 @@ import Disqus from '@/components/Disqus'
 import { disqusConfig } from '@/data/disqus.config'
 
 const posts = await getCollection('blog')
+
 export async function getStaticPaths() {
 	const posts = await getPosts()
 
@@ -19,10 +20,12 @@ export async function getStaticPaths() {
 		props: post
 	}))
 }
-type Props = CollectionEntry<'blog'>
 
+type Props = CollectionEntry<'blog'>
 const post = Astro.props
+
 const MAX_POSTS = 3
+
 const getRelatedPosts = (post: Props) => {
 	const lowercaseTags = post.data.tags.map((tag) => tag.toLowerCase())
 	const relatedPosts = posts.filter(
@@ -36,6 +39,7 @@ const relatedPosts = getRelatedPosts(post)
 const { Content, headings, remarkPluginFrontmatter } = await post.render()
 
 const disqusEnabled = disqusConfig.enabled
+const hideRelatedPosts = post.data.hideRelatedPosts === true
 ---
 
 <BlogPost id={post.id} data={post.data} headings={headings}>
@@ -55,10 +59,14 @@ const disqusEnabled = disqusConfig.enabled
 			</div>
 
 			<!-- related posts -->
-			<footer>
-				<h2 class='font-bold text-lg dark:text-white mb-6'>Related Posts</h2>
-				<ListRelatedPosts posts={relatedPosts} />
-			</footer>
+			{
+				!hideRelatedPosts && (
+					<footer>
+						<h2 class='font-bold text-lg dark:text-white mb-6'>Related Posts</h2>
+						<ListRelatedPosts posts={relatedPosts} hideRelatedPosts={hideRelatedPosts} />
+					</footer>
+				)
+			}
 		</article>
 	</div>
 
