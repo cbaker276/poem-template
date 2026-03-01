@@ -1,0 +1,20 @@
+[0227/224503.708:INFO:ddg\webview\webview_embedded\com\com_cef_view_environment.cc:230] Created environment, environments size: 1
+[0227/224503.941:INFO:ddg\webview\webview_embedded\com\com_cef_view_environment.cc:230] Created environment, environments size: 2
+[0227/224505.727:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:273] [DPI-DBG] ComCefViewController::UpdateControllerVisibility: env=Env: 1  h=2 browser_hwnd=0x0x50a2e parent_hwnd=0x0x80a1e IsIconic=0 visibility=0 pre_hidden_prior=2
+[0227/224505.727:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 1  h=2 browser_hwnd=0x0x50a2e parent_hwnd=0x0x80a1e visibility=2 pre_hidden_prior=2
+[0227/224506.209:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:273] [DPI-DBG] ComCefViewController::UpdateControllerVisibility: env=Env: 2  h=1 browser_hwnd=0x0x3809cc parent_hwnd=0x0xc0478 IsIconic=0 visibility=0 pre_hidden_prior=2
+[0227/224506.209:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 2  h=1 browser_hwnd=0x0x3809cc parent_hwnd=0x0xc0478 visibility=2 pre_hidden_prior=2
+[0227/224506.242:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 2  h=1 browser_hwnd=0x0x3809cc parent_hwnd=0x0xc0478 visibility=1 pre_hidden_prior=2
+[0227/224509.522:WARNING:ddg\webview\common\ipc\channel.cc:220] Channel disconnected
+[0227/224509.522:WARNING:ddg\webview\webview_embedded\browser_instance.cc:253] Env: 2 BrowserInstance: channel error: Disconnected
+[0227/224526.007:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:273] [DPI-DBG] ComCefViewController::UpdateControllerVisibility: env=Env: 1  h=3 browser_hwnd=0x0x4a0a46 parent_hwnd=0x0x12029a IsIconic=0 visibility=0 pre_hidden_prior=2
+[0227/224526.007:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 1  h=3 browser_hwnd=0x0x4a0a46 parent_hwnd=0x0x12029a visibility=2 pre_hidden_prior=2
+[0227/224526.475:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:273] [DPI-DBG] ComCefViewController::UpdateControllerVisibility: env=Env: 2  h=1 browser_hwnd=0x0x30a6c parent_hwnd=0x0x1a0968 IsIconic=0 visibility=0 pre_hidden_prior=2
+[0227/224526.475:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 2  h=1 browser_hwnd=0x0x30a6c parent_hwnd=0x0x1a0968 visibility=2 pre_hidden_prior=2
+[0227/224526.503:INFO:ddg\webview\webview_embedded\com\com_cef_view_controller.cc:77] [DPI-DBG] ComCefViewController::put_WebContentVisibility: env=Env: 2  h=1 browser_hwnd=0x0x30a6c parent_hwnd=0x0x1a0968 visibility=1 pre_hidden_prior=2
+[0227/224530.268:WARNING:ddg\webview\common\ipc\channel.cc:220] Channel disconnected
+[0227/224530.268:WARNING:ddg\webview\webview_embedded\browser_instance.cc:253] Env: 2 BrowserInstance: channel error: Disconnected
+[0227/230107.827:WARNING:ddg\webview\common\ipc\channel.cc:220] Channel disconnected
+[0227/230107.827:WARNING:ddg\webview\webview_embedded\browser_instance.cc:253] Env: 1 BrowserInstance: channel error: Disconnected
+[0227/230107.829:WARNING:ddg\webview\webview_embedded\environment.cc:43] Env: 2 Environment destroyed
+[0227/230107.840:WARNING:ddg\webview\webview_embedded\environment.cc:43] Env: 1 Environment destroyed
