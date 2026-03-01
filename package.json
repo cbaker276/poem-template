@@ -68,5 +68,10 @@
 		"*.{astro,js,jsx,ts,tsx,md,mdx,json}": [
 			"prettier --write --plugin-search-dir=."
 		]
+	},
+	"pnpm": {
+		"overrides": {
+			"sitemap": "7.1.1"
+		}
 	}
 }
